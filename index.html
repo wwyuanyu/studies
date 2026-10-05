@@ -5,92 +5,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>迷你世界交流群① · 官网</title>
 <meta name="description" content="迷你世界交流群①，群号 1128673571，迷你世界玩家交流群。">
+<link rel="icon" type="image/jpeg" href="https://img.remit.ee/i/93tYZ1wf0CkX">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{
-  font-family:-apple-system,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
-  background:#f7f8fa;color:#222;line-height:1.7;
-}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;background:#f7f8fa;color:#222;line-height:1.7}
 .wrap{max-width:900px;margin:0 auto;padding:0 20px}
 
-/* 顶部 */
-header{
-  background:linear-gradient(135deg,#4a90d9,#357abd);
-  color:#fff;text-align:center;padding:64px 20px 56px;
-}
-header .tag{
-  display:inline-block;background:rgba(255,255,255,.18);
-  padding:4px 16px;border-radius:20px;font-size:14px;margin-bottom:16px;
-}
+header{background:linear-gradient(135deg,#4a90d9,#357abd);color:#fff;text-align:center;padding:64px 20px 56px;position:relative}
+header .top{position:absolute;left:20px;top:20px}
+header .top a{color:#fff;text-decoration:none;font-size:14px;border:1px solid rgba(255,255,255,.5);padding:6px 14px;border-radius:20px}
+header .tag{display:inline-block;background:rgba(255,255,255,.18);padding:4px 16px;border-radius:20px;font-size:14px;margin-bottom:16px}
 header h1{font-size:34px;margin-bottom:10px;font-weight:700}
 header p{font-size:17px;opacity:.95}
 
-/* 区块 */
 section{padding:44px 0}
 section + section{border-top:1px solid #eaecef}
-.sec-title{
-  font-size:20px;font-weight:700;margin-bottom:20px;
-  padding-left:12px;border-left:4px solid #357abd;
-}
+.sec-title{font-size:20px;font-weight:700;margin-bottom:20px;padding-left:12px;border-left:4px solid #357abd}
 
-/* 数据 */
-.stats{
-  display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:6px;
-}
-.stat{
-  background:#fff;border:1px solid #eaecef;border-radius:10px;
-  padding:20px 12px;text-align:center;
-}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:6px}
+.stat{background:#fff;border:1px solid #eaecef;border-radius:10px;padding:20px 12px;text-align:center}
 .stat .num{font-size:30px;font-weight:700;color:#357abd}
 .stat .lbl{font-size:14px;color:#666;margin-top:4px}
 
-/* 列表 */
 .info p{margin-bottom:12px;color:#444}
 .info strong{color:#222}
 
 .rules{list-style:none}
-.rules li{
-  background:#fff;border:1px solid #eaecef;border-radius:10px;
-  padding:14px 18px;margin-bottom:10px;display:flex;gap:12px;align-items:flex-start;
-}
-.rules .no{
-  flex:none;width:26px;height:26px;border-radius:50%;
-  background:#357abd;color:#fff;font-size:14px;font-weight:700;
-  display:grid;place-items:center;
-}
+.rules li{background:#fff;border:1px solid #eaecef;border-radius:10px;padding:14px 18px;margin-bottom:10px;display:flex;gap:12px;align-items:flex-start}
+.rules .no{flex:none;width:26px;height:26px;border-radius:50%;background:#357abd;color:#fff;font-size:14px;font-weight:700;display:grid;place-items:center}
 
 .members{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.member{
-  background:#fff;border:1px solid #eaecef;border-radius:10px;
-  padding:18px 12px;text-align:center;
-}
+.member{background:#fff;border:1px solid #eaecef;border-radius:10px;padding:18px 12px;text-align:center}
 .member .ic{font-size:30px}
 .member .name{font-weight:700;margin-top:6px}
 .member .role{font-size:13px;color:#666}
 
-/* 加群 */
-.join-box{
-  background:#fff;border:1px solid #eaecef;border-radius:12px;
-  padding:30px;text-align:center;
-}
-.join-box .group{
-  font-size:26px;font-weight:700;letter-spacing:.06em;color:#357abd;margin:14px 0;
-}
-.btn{
-  display:inline-block;background:#357abd;color:#fff;
-  font-size:16px;font-weight:600;padding:13px 34px;border-radius:8px;
-  text-decoration:none;transition:.15s;
-}
+.join-box{background:#fff;border:1px solid #eaecef;border-radius:12px;padding:30px;text-align:center}
+.join-box .group{font-size:26px;font-weight:700;letter-spacing:.06em;color:#357abd;margin:14px 0}
+.btn{display:inline-block;background:#357abd;color:#fff;font-size:16px;font-weight:600;padding:13px 34px;border-radius:8px;text-decoration:none;transition:.15s}
 .btn:hover{background:#2b639c}
 .btn.sub{background:#fff;color:#357abd;border:1px solid #357abd;margin-left:10px}
 .btn.sub:hover{background:#eef4fb}
 .tip{margin-top:16px;font-size:13px;color:#999}
 
-/* 页脚 */
-footer{
-  background:#fff;border-top:1px solid #eaecef;
-  text-align:center;padding:24px 20px;color:#999;font-size:13px;
-}
+footer{background:#fff;border-top:1px solid #eaecef;text-align:center;padding:24px 20px;color:#999;font-size:13px}
 
 @media(max-width:640px){
   header h1{font-size:26px}
@@ -102,6 +60,7 @@ footer{
 <body>
 
 <header>
+  <div class="top"><a href="https://wwyuanyu.github.io/yunjianb/" target="_blank" rel="noopener">进入总站</a></div>
   <div class="tag">QQ 群</div>
   <h1>迷你世界交流群①</h1>
   <p>Hello 大家好！欢迎加入该群，此群为迷你世界讨论群，群里面有很多辅助，有什么问题都可以找我。</p>
@@ -163,6 +122,28 @@ footer{
 </div>
 
 <footer>迷你世界交流群① · 群号 1128673571</footer>
+
+<script>
+(function () {
+  var qqLink = 'https://qm.qq.com/q/PSpBu3Nn20';
+  var btn = document.querySelector('a[href="' + qqLink + '"]');
+  if (!btn) return;
+  var isMobile = /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
+  if (isMobile) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;inset:0;background:rgba(255,255,255,0.97);z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;text-align:center;padding:30px;box-sizing:border-box;';
+      overlay.innerHTML =
+        '<div style="font-size:22px;font-weight:700;color:#333;">正在打开QQ应用</div>' +
+        '<div style="font-size:15px;color:#888;">正在添加站长：1707879407，请稍候…</div>' +
+        '<a href="' + qqLink + '" style="color:#fff;background:#1a73e8;padding:12px 28px;border-radius:8px;font-size:15px;text-decoration:none;">若未自动跳转，点此打开</a>';
+      document.body.appendChild(overlay);
+      setTimeout(function () { window.location.href = qqLink; }, 1500);
+    });
+  }
+})();
+</script>
 
 </body>
 </html>
