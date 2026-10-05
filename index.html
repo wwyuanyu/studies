@@ -13,8 +13,12 @@ body{font-family:-apple-system,"PingFang SC","Microsoft YaHei","WenQuanYi Micro 
 
 .top-nav{background:rgba(255,255,255,.75);backdrop-filter:blur(12px);position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(255,255,255,.8)}
 .top-nav .nav-inner{max-width:920px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
-.top-nav a{font-size:15px;color:#7b5cd6;text-decoration:none;font-weight:600;padding:6px 16px;border-radius:20px;background:rgba(123,92,214,.1)}
-.top-nav a:hover{background:rgba(123,92,214,.2)}
+.top-nav a{font-size:15px;color:#fff;text-decoration:none;font-weight:600;padding:8px 22px;border-radius:50px;
+  background-image:linear-gradient(135deg,#ff9fbf,#ff6f9f);
+  background-size:200% 200%;
+  box-shadow:0 4px 14px rgba(255,143,177,.45);
+  transition:.4s}
+.top-nav a:hover{background-position:100% 100%;transform:translateY(-2px);box-shadow:0 8px 20px rgba(255,143,177,.6)}
 .logo{font-size:16px;font-weight:700;background:linear-gradient(120deg,#f48fb1,#c56cf0,#7b5cd6);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 
 header{background:linear-gradient(135deg,#ffe0ec 0%,#e8d5ff 40%,#c5b8ff 100%);text-align:center;padding:56px 20px 50px;position:relative}
@@ -62,10 +66,15 @@ section + section{border-top:1px solid #eef0f5}
 .join-box{background:#fff;border:1px solid #eef0f5;border-radius:20px;padding:34px 24px;text-align:center;box-shadow:0 8px 28px rgba(123,92,214,.1)}
 .join-box .main{font-size:18px;font-weight:600;color:#555}
 .join-box .group{font-size:28px;font-weight:800;letter-spacing:.05em;background:linear-gradient(120deg,#f48fb1,#c56cf0);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin:16px 0}
-.btn{display:inline-block;background:linear-gradient(135deg,#f48fb1,#c56cf0);color:#fff;font-size:16px;font-weight:600;padding:13px 36px;border-radius:50px;text-decoration:none;box-shadow:0 6px 16px rgba(197,92,240,.35);transition:.2s}
-.btn:hover{transform:translateY(-2px);box-shadow:0 10px 20px rgba(197,92,240,.4)}
-.btn.sub{background:#fff;color:#7b5cd6;border:1.5px solid #c5b8ff;box-shadow:none;margin-left:10px}
-.btn.sub:hover{background:#f7f2ff;box-shadow:none;transform:translateY(-2px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;
+  color:#fff;font-size:16px;font-weight:600;padding:13px 36px;border-radius:50px;text-decoration:none;
+  background-image:linear-gradient(135deg,#ff9fbf,#ff6f9f);
+  background-size:200% 200%;
+  box-shadow:0 4px 16px rgba(255,143,177,.45);
+  transition:.4s}
+.btn:hover{background-position:100% 100%;transform:translateY(-3px);box-shadow:0 8px 24px rgba(255,143,177,.6)}
+.btn.sub{background-image:linear-gradient(135deg,#ffc36b,#ff8a5b);color:#fff;border:none;box-shadow:0 4px 16px rgba(255,163,92,.45);margin-left:10px}
+.btn.sub:hover{box-shadow:0 8px 24px rgba(255,163,92,.6)}
 .tip{margin-top:14px;font-size:13px;color:#999}
 
 footer{background:#fff;border-top:1px solid #eef0f5;text-align:center;padding:24px 20px;color:#999;font-size:13px}
@@ -166,7 +175,7 @@ footer{background:#fff;border-top:1px solid #eef0f5;text-align:center;padding:24
 
 </div>
 
-<footer>迷你世界交流群① · 群号 1128673571</footer>
+<footer>迷你世界交流群① · 群号 1128673571 · 本页面未使用云家文案</footer>
 
 <script>
 (function () {
